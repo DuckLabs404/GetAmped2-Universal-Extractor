@@ -1,0 +1,20 @@
+Comando Principal (Uso Geral)
+Este é o comando que você usará na maioria das vezes para extrair tudo de um arquivo:
+Bash
+python decomp.py NOMEDOARQUIVO.GA2 --output ESCOLHANOMEDODESTINO
+OBS:O arquivo .ga2 deve estar na mesma pasta do decomp.py
+
+
+Lista de Comandos e Funções
+NOMEDOARQUIVO.GA2
+Obrigatório. É o nome do arquivo do jogo que você deseja abrir (ex: classes.ga2, 1.ga2).
+--output <nome>
+Define o nome da pasta de destino onde os arquivos extraídos serão salvos.
+--list
+Listagem. Mostra todos os arquivos dentro do .ga2 no terminal sem salvar nada no computador.
+--decompress
+Descompressão. Abre arquivos que estão "zipados" internamente (essencial para ler scripts .scm e imagens .agi).
+--filter <ext>
+Filtro. Extrai apenas arquivos de um tipo específico (ex: --filter .class ou --filter .scm).
+--quiet
+Silencioso. Esconde as mensagens de progresso, mostrando apenas quando o trabalho terminar.
