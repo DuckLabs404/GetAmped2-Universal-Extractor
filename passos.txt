@@ -1,7 +1,7 @@
 Comando Principal (Uso Geral)
 Este é o comando que você usará na maioria das vezes para extrair tudo de um arquivo:
 Bash
-python decomp.py NOMEDOARQUIVO.GA2 --output ESCOLHANOMEDODESTINO
+python ga2_universal_extractor.py NOMEDOARQUIVO.GA2 --output ESCOLHANOMEDODESTINO
 OBS:O arquivo .ga2 deve estar na mesma pasta do decomp.py
 
 
